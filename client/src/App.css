@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background-color: rgb(121, 212, 156) !important;
+  color: black;
+  margin: 0;
+  padding: 0;
+} 
+
+.upper-margin {
+  margin-top: 70px;
+}
+
+.expand {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.expand:hover {
+  transform: scale(1.10) !important;
+  cursor: pointer !important;
+}
+
+.width {
+  width: 45%;
+}
+
+.btn {
+  color: white !important;
+  margin: 10px 8px;
+  background-color: rgb(5, 87, 55) !important;
+}
+
+.space {
+  margin-bottom: 100px;
+}
+
+.subject {
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 4px solid darkgreen;
+  text-align: left;
+  font-size: larger;
+  width: 95%;
+  margin: 0px auto;
+}
+
+.head {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.top {
+  background-color: rgb(52, 214, 147);
+  padding: 3px 15px;
+}
+
+.bottom {
+  padding: 10px 15px;
+}
+
+.card {
+  background-color: aquamarine !important;
+  padding: 20px 20px;
+  border-top: 2x solid darkgreen !important;
+}
+
+.task {
+  border: 1px solid darkgreen;
+  border-radius: 1px;
+  font-size: large;
+  padding: 5px 5px;
+  background-color: rgb(173, 247, 173);
+}
+
+.move-right {
+  float: right;
+  padding-right: 5px;
+}
+
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 3px;
+  background: white;
+  height: 45px;
+  width: 35px;
+  margin-right: 3px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: green;
+  color: #ffffff;
+}
